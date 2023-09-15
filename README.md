@@ -1,7 +1,8 @@
 # Seed Phrase Permutation Checker
 
 This Node.js script is designed to find a specific Bitcoin address by generating permutations of a seed phrase. It utilizes worker threads for parallel processing to speed up the search process.
-A friend lost the sequence of his seed phrase but had all the 12 words with him, have wrote the script to keep the first word as constant and permute the restv of 11 words due to memory constraints., permuting all 12 takes over 120 GB of ram, this script can be repeated for all 12 words to find the sequence of the seed phrase.
+
+A friend lost the sequence of his seed phrase but had all the 12 words with him, have wrote the script to keep the first word as constant and permute the rest of 11 words due to memory constraints, permuting all 12 takes over 120 GB of ram, this script can be repeated for all 12 words to find the sequence of the seed phrase.
 More info here - https://twitter.com/0xSmit/status/1679432754000429057/
 
 ## Prerequisites
