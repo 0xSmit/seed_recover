@@ -128,3 +128,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#rust build
+rust/debug/
+rust/target/
+rust/Cargo.lock
+**/*.rs.bk
+*.pdb
